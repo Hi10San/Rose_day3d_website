@@ -114,7 +114,7 @@ export default function App() {
       <Canvas shadows gl={{ antialias: false, stencil: false, depth: true }} dpr={[1, 2]}>
         <PerspectiveCamera makeDefault position={[0, 0, 5]} fov={35} />
         <color attach="background" args={['#050505']} />
-        <ambientLight intensity={0.2} />
+        <ambientLight intensity={0.5} />
         <spotLight position={[5, 5, 5]} angle={0.3} penumbra={1} intensity={5} color="#ff3333" castShadow />
         <pointLight position={[-5, -2, -2]} color="#D4AF37" intensity={2} />
 
