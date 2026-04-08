@@ -46,7 +46,7 @@ function Rig() {
 }
 
 function CentralRose() {
-  const { scene } = useGLTF('/assets/rose.glb'); 
+  const { scene } = useGLTF('./assets/rose.glb'); 
   return (
     <group>
       <Float speed={2} rotationIntensity={0.5} floatIntensity={1}>
